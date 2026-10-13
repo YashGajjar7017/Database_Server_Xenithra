@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Alex Mercer",
+    "email": "alex@example.com",
+    "role": "admin",
+    "age": 34,
+    "active": true,
+    "_id": "6ace219ce9f52a1e491ec545",
+    "createdAt": "2026-10-13T12:18:36.619Z",
+    "updatedAt": "2026-10-13T12:18:36.619Z"
+  },
+  {
+    "name": "Samantha Vance",
+    "email": "samantha@example.com",
+    "role": "customer",
+    "age": 28,
+    "active": true,
+    "_id": "6ace219c9d14b745b7db131a",
+    "createdAt": "2026-10-13T12:18:36.621Z",
+    "updatedAt": "2026-10-13T12:18:36.621Z"
+  },
+  {
+    "name": "David Zhao",
+    "email": "david@example.com",
+    "role": "customer",
+    "age": 41,
+    "active": true,
+    "_id": "6ace219c2be531ddf4b5ddf1",
+    "createdAt": "2026-10-13T12:18:36.621Z",
+    "updatedAt": "2026-10-13T12:18:36.621Z"
+  },
+  {
+    "name": "Elena Rostova",
+    "email": "elena@example.com",
+    "role": "vendor",
+    "age": 31,
+    "active": true,
+    "_id": "6ace219caba222877578111b",
+    "createdAt": "2026-10-13T12:18:36.622Z",
+    "updatedAt": "2026-10-13T12:18:36.622Z"
+  },
+  {
+    "name": "Marcus Brody",
+    "email": "marcus@example.com",
+    "role": "customer",
+    "age": 24,
+    "active": false,
+    "_id": "6ace219c2c5260247c15c84f",
+    "createdAt": "2026-10-13T12:18:36.622Z",
+    "updatedAt": "2026-10-13T12:18:36.622Z"
+  }
+]

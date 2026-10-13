@@ -1,0 +1,52 @@
+[
+  {
+    "eventName": "page_view",
+    "device": "desktop",
+    "country": "US",
+    "durationSec": 140,
+    "success": true,
+    "_id": "6ace219c12877d635e1d2af3",
+    "createdAt": "2026-10-13T12:18:36.628Z",
+    "updatedAt": "2026-10-13T12:18:36.628Z"
+  },
+  {
+    "eventName": "checkout_click",
+    "device": "mobile",
+    "country": "CA",
+    "durationSec": 45,
+    "success": true,
+    "_id": "6ace219c3557f9e512aa54ab",
+    "createdAt": "2026-10-13T12:18:36.629Z",
+    "updatedAt": "2026-10-13T12:18:36.629Z"
+  },
+  {
+    "eventName": "login_attempt",
+    "device": "desktop",
+    "country": "DE",
+    "durationSec": 12,
+    "success": true,
+    "_id": "6ace219cd33fb9cbb2e74527",
+    "createdAt": "2026-10-13T12:18:36.629Z",
+    "updatedAt": "2026-10-13T12:18:36.629Z"
+  },
+  {
+    "eventName": "api_query",
+    "device": "desktop",
+    "country": "UK",
+    "durationSec": 3,
+    "success": true,
+    "_id": "6ace219c0944526e2c0a6b5f",
+    "createdAt": "2026-10-13T12:18:36.629Z",
+    "updatedAt": "2026-10-13T12:18:36.629Z"
+  },
+  {
+    "eventName": "checkout_fail",
+    "device": "mobile",
+    "country": "US",
+    "durationSec": 90,
+    "success": false,
+    "_id": "6ace219c8f54aa643048e553",
+    "createdAt": "2026-10-13T12:18:36.629Z",
+    "updatedAt": "2026-10-13T12:18:36.629Z"
+  }
+]

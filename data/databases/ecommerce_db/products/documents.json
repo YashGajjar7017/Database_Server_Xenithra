@@ -1,0 +1,89 @@
+[
+  {
+    "title": "Quantum Mechanical Keyboard",
+    "price": 149.99,
+    "category": "Electronics",
+    "stock": 50,
+    "tags": [
+      "hardware",
+      "rgb",
+      "gaming"
+    ],
+    "rating": 4.8,
+    "_id": "6ace219cd20d15d8c183909b",
+    "createdAt": "2026-10-13T12:18:36.623Z",
+    "updatedAt": "2026-10-13T12:18:36.623Z"
+  },
+  {
+    "title": "Ergonomic Standing Desk Mat",
+    "price": 49.5,
+    "category": "Home",
+    "stock": 120,
+    "tags": [
+      "furniture",
+      "comfort"
+    ],
+    "rating": 4.6,
+    "_id": "6ace219c668d5468b853885c",
+    "createdAt": "2026-10-13T12:18:36.623Z",
+    "updatedAt": "2026-10-13T12:18:36.623Z"
+  },
+  {
+    "title": "Ultra-HD Curved OLED Monitor 34\"",
+    "price": 899,
+    "category": "Electronics",
+    "stock": 15,
+    "tags": [
+      "screen",
+      "4k",
+      "display"
+    ],
+    "rating": 4.9,
+    "_id": "6ace219c278b533ebdd5d2dd",
+    "createdAt": "2026-10-13T12:18:36.624Z",
+    "updatedAt": "2026-10-13T12:18:36.624Z"
+  },
+  {
+    "title": "Merino Wool Thermal Hoodie",
+    "price": 85,
+    "category": "Fashion",
+    "stock": 40,
+    "tags": [
+      "clothing",
+      "winter"
+    ],
+    "rating": 4.4,
+    "_id": "6ace219cd8fcb02f5ee44ce0",
+    "createdAt": "2026-10-13T12:18:36.624Z",
+    "updatedAt": "2026-10-13T12:18:36.624Z"
+  },
+  {
+    "title": "Designing Data-Intensive Applications",
+    "price": 42,
+    "category": "Books",
+    "stock": 80,
+    "tags": [
+      "tech",
+      "database",
+      "architecture"
+    ],
+    "rating": 5,
+    "_id": "6ace219c89a189e0d4ad0744",
+    "createdAt": "2026-10-13T12:18:36.625Z",
+    "updatedAt": "2026-10-13T12:18:36.625Z"
+  },
+  {
+    "title": "Acoustic Noise-Cancelling Headphones",
+    "price": 299.99,
+    "category": "Electronics",
+    "stock": 35,
+    "tags": [
+      "audio",
+      "wireless"
+    ],
+    "rating": 4.7,
+    "_id": "6ace219cfe4586c105c3e468",
+    "createdAt": "2026-10-13T12:18:36.625Z",
+    "updatedAt": "2026-10-13T12:18:36.625Z"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "name": "Analytics Event Schema",
+  "enforcement": "strict",
+  "strict": false,
+  "fields": {
+    "eventName": {
+      "type": "string",
+      "required": true,
+      "description": "Event identifier"
+    },
+    "device": {
+      "type": "string",
+      "required": true,
+      "enum": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "default": "desktop",
+      "description": "Client device"
+    },
+    "country": {
+      "type": "string",
+      "default": "US",
+      "description": "Country code"
+    },
+    "durationSec": {
+      "type": "number",
+      "min": 0,
+      "description": "Session duration in seconds"
+    },
+    "success": {
+      "type": "boolean",
+      "default": true,
+      "description": "Outcome"
+    }
+  }
+}

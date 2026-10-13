@@ -1,0 +1,38 @@
+[
+  {
+    "customerEmail": "samantha@example.com",
+    "totalAmount": 149.99,
+    "status": "completed",
+    "itemCount": 1,
+    "_id": "6ace219cecbbe3b8db31890e",
+    "createdAt": "2026-10-13T12:18:36.626Z",
+    "updatedAt": "2026-10-13T12:18:36.626Z"
+  },
+  {
+    "customerEmail": "david@example.com",
+    "totalAmount": 948.5,
+    "status": "processing",
+    "itemCount": 2,
+    "_id": "6ace219ca8cab581d17b4fcf",
+    "createdAt": "2026-10-13T12:18:36.627Z",
+    "updatedAt": "2026-10-13T12:18:36.627Z"
+  },
+  {
+    "customerEmail": "marcus@example.com",
+    "totalAmount": 42,
+    "status": "completed",
+    "itemCount": 1,
+    "_id": "6ace219cd3ebaba04325e1e6",
+    "createdAt": "2026-10-13T12:18:36.627Z",
+    "updatedAt": "2026-10-13T12:18:36.627Z"
+  },
+  {
+    "customerEmail": "samantha@example.com",
+    "totalAmount": 299.99,
+    "status": "pending",
+    "itemCount": 1,
+    "_id": "6ace219c524d0665177aa457",
+    "createdAt": "2026-10-13T12:18:36.627Z",
+    "updatedAt": "2026-10-13T12:18:36.627Z"
+  }
+]

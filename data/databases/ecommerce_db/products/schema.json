@@ -1,0 +1,49 @@
+{
+  "name": "Product Schema",
+  "enforcement": "strict",
+  "strict": false,
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "min": 3,
+      "max": 100,
+      "description": "Product Title"
+    },
+    "price": {
+      "type": "number",
+      "required": true,
+      "min": 0.01,
+      "description": "Unit Price (USD)"
+    },
+    "category": {
+      "type": "string",
+      "required": true,
+      "enum": [
+        "Electronics",
+        "Fashion",
+        "Home",
+        "Books"
+      ],
+      "description": "Product Category"
+    },
+    "stock": {
+      "type": "number",
+      "min": 0,
+      "default": 25,
+      "description": "Inventory stock count"
+    },
+    "tags": {
+      "type": "array",
+      "itemType": "string",
+      "description": "Search keywords"
+    },
+    "rating": {
+      "type": "number",
+      "min": 1,
+      "max": 5,
+      "default": 4.5,
+      "description": "Average review score"
+    }
+  }
+}

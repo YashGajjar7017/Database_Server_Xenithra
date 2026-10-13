@@ -1,0 +1,43 @@
+{
+  "name": "User Schema",
+  "enforcement": "strict",
+  "strict": false,
+  "fields": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "min": 2,
+      "max": 50,
+      "description": "Full Name"
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "pattern": "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
+      "unique": true,
+      "description": "Email Address"
+    },
+    "role": {
+      "type": "string",
+      "required": true,
+      "enum": [
+        "admin",
+        "customer",
+        "vendor"
+      ],
+      "default": "customer",
+      "description": "User Role"
+    },
+    "age": {
+      "type": "number",
+      "min": 18,
+      "max": 120,
+      "description": "Age in years"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true,
+      "description": "Account status"
+    }
+  }
+}
